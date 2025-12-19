@@ -14,7 +14,7 @@ export default defineConfig({
   reporter: [["html", { open: "never" }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: "https://demo.playwright.dev/todomvc",
+    baseURL: "https://demo.playwright.dev/todomvc/",
     headless: false,
     screenshot: "only-on-failure",
     video: "retain-on-failure",
