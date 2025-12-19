@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ui-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AIMagicCrafter/playwright-ui-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AIMagicCrafter/playwright-ui-automation/issues"
+  },
+  "homepage": "https://github.com/AIMagicCrafter/playwright-ui-automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}
