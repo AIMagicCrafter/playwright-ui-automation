@@ -3,8 +3,8 @@ export class TodoPage {
     this.page = page;
     this.newTodoInput = page.locator(".new-todo");
     this.todoItems = page.locator('[data-testid="todo-item"]');
-    this.activeFilter = page.locator("text=Active");
-    this.completedFilter = page.locator("text=Completed");
+    this.activeFilter = page.locator('a[href="#/active"]');
+    this.completedFilter = page.locator('a[href="#/completed"]');
   }
 
   async open() {
